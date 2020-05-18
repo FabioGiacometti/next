@@ -12,8 +12,8 @@
             background-size: cover;
         }
 
-        /* body::before {
-            z-index: -1;
+        body::before {
+            /* z-index: -1;
             content: "";
             position: absolute;
             background-size: cover;
@@ -22,8 +22,8 @@
             background-image: url("./images/12240.jpg");
             background-position-y: bottom;
             /* filter: invert(100%) hue-rotate(10deg);
-            -webkit-filter: invert(100%); */
-        } */
+            -webkit-filter: invert(100%); */ 
+        }
 
         .logo_container {
             /* margin:auto 50px; */
@@ -137,7 +137,7 @@
 <body class="flex flex-col items-center h-screen ">
     <div class="w-screen md:w-1/2 mt-40 flex flex-col md:flex-row justify-center items-center ">
         <div class="md:w-1/2">
-            <div class="logo_container m-auto flex flex-col justify-center items-center ">
+            <div class="logo_container m-auto flex flex-col justify-center items-center ml-8 md:ml-0 ">
                 <img src="images/flechaLlena.svg" alt="" class="absolute fade-in move">
                 <img src="images/flecha_exterior_animated.svg" alt="" class="absolute move">
                 <img src="images/logoSinFlechja_animated.svg" alt="" class="absolute">
@@ -145,7 +145,7 @@
                 <p class="subtitulo relative italic" style="top: 50px; letter-spacing: 10px;">COMPUTACION</p>
             </div>
         </div>
-        <div class="infocontainer w-64 flex flex-col justify-center items-center md:w-1/2 ml-16">
+        <div class="infocontainer md:w-64 flex flex-col justify-center items-center md:w-1/2 md:ml-16 mt-20 md:mt-0 text-center md:text-left">
             <div>
                 <p class="titulo text-2xl leading-none text-gray-500 font-bold italic pb-6 border-b-8 border-blue-200">
                     Servicio Técnico <br>
@@ -160,7 +160,7 @@
             </div>
         </div>
     </div>
-    <footer class="text-left mt-16 flex">
+    <footer class="text-left mt-16 flex w-full p-4">
         <div class="social-icons mr-4 pt-2 flex-col justify-center align-center pr-6">
             <a href="https://www.instagram.com/nextcomputacion/?hl=es-la">
                 <div class="facebook social-icon"></div>
@@ -171,8 +171,8 @@
         </div>
         <div class="datos-comerciales pl-8 border-l-8 border-blue-200">
             <p class="telefono">+54 9 351 224 9213</p>
-            <p class="mail">nextcomputacioncba@gmail.com</p>
-            <p class="direccion">Recta Martinoli 8141 - Loc. 2 - Argüello, Cordoba</p>
+            <p class="mail whitespace-normal">nextcomputacioncba@gmail.com</p>
+            <p class="direccion whitespace-normal">Recta Martinoli 8141 - Loc. 2 - Argüello, Cordoba</p>
         </div>
     </footer>
     <div class="whatsapp"></div>
