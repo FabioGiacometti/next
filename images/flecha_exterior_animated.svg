@@ -1,0 +1,10 @@
+<svg width="309" height="81" viewBox="0 0 309 81" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g clip-path="url(#clip0)">
+<path d="M168.085 38.2013L133.925 74.3632L140.55 58.2443L140.933 57.3106L139.93 57.3106L123.789 57.3105L137.608 23.3663L153.748 23.3663L154.738 23.3663L155.123 22.4456L162.128 5.6992L168.085 38.2013Z" stroke="#00BBF2" stroke-width="2" class="hIbPFIeb_0"></path>
+</g>
+<defs>
+<clipPath id="clip0">
+<path width="308.762" height="76.2907" transform="matrix(0.999914 -0.0130896 0 1 0.0409546 4.04157)" fill="white" d="M0 0 L308.762 0 L308.762 76.2907 L0 76.2907 Z" class="hIbPFIeb_1"></path>
+</clipPath>
+</defs>
+<style data-made-with="vivus-instant">.hIbPFIeb_0{stroke-dasharray:192 194;stroke-dashoffset:193;animation:hIbPFIeb_draw 2200ms ease-out 0ms forwards;}.hIbPFIeb_1{stroke-dasharray:771 773;stroke-dashoffset:772;animation:hIbPFIeb_draw 2200ms ease-out 0ms forwards;}@keyframes hIbPFIeb_draw{100%{stroke-dashoffset:0;}}@keyframes hIbPFIeb_fade{0%{stroke-opacity:1;}90.9090909090909%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
